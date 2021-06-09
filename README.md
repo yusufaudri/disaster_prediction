@@ -25,9 +25,9 @@ Assuming you have configured your GCP Project, here are the steps of deploying t
     ```
   
 5.  In the cloud shell click open editor to review the required files to deploy to App Engine
-    - main.py          ==> The API for your machine learning model to run in the cloud. in this project we use Flask.
-    - requirement.txt  ==> This requirements.txt file is used for specifying what python packages are required to run the project you are looking at
-    - app.yaml         ==> You configure your App Engine app's settings in the app.yaml file The app.yaml file contains information about your app's code, such as the runtime and the latest version identifier.
+    - main.py                   = The API for your machine learning model to run in the cloud. in this project we use Flask.
+    - requirements.txt          = This requirements.txt file is used for specifying what python packages are required to run the project you are looking at
+    - app.yaml                  = You configure your App Engine app's settings in the app.yaml file The app.yaml file contains information about your app's code, such as the runtime and the latest version identifier.
 6.  return to the cloud shell terminal and run this code to authorizes gcloud and other SDK tools to access Google Cloud Platform using your user account credentials, or from an account of your choosing whose credentials are already available and Sets up a new or existing configuration.
 
     ```sh
